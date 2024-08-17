@@ -1,0 +1,38 @@
+.overlay {
+    background-image: url(todolistbg.webp); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .todo-container {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+  }
+  .start-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .skip-link {
+    color: lightgray;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+  }
+  @media (min-width: 768px) {
+    .todo-container {
+      width: 400px;
+    }
+  }
+  
